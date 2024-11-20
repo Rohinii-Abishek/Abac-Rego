@@ -1,8 +1,8 @@
-FastAPI ABAC Application with OPA
+FastAPI ABAC Application with OPA:
 
 This application is a FastAPI-based API that uses Attribute-Based Access Control (ABAC) policies enforced by an Open Policy Agent (OPA) server. Policies are defined in the policy.rego file and can be updated dynamically without restarting the FastAPI server.
 
-Installation
+Installation:
 Install fastapi and uvicorn : pip install fastapi uvicorn
 Install OPA dependencies (you can interact with OPA via HTTP API) : pip install requests
 Download the OPA binary from the official website : https://www.openpolicyagent.org/docs/latest/#running-opa
